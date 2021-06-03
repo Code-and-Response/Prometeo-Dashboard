@@ -44,7 +44,7 @@ spec:
         - name: all-icr-io
       containers:
         - name: api-main
-          image: "us.icr.io/upkar_ns/api-main:latest"
+          image: "uk.icr.io/prometeo-cluster/api-main"
           imagePullPolicy: Always
           ports:
             - containerPort: 5000

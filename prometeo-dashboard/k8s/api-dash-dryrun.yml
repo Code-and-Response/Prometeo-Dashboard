@@ -44,7 +44,7 @@ spec:
         - name: all-icr-io
       containers:
         - name: api-dash
-          image: "us.icr.io/upkar_ns/api-dash:latest"
+          image: "uk.icr.io/prometeo-cluster/api-dash"
           imagePullPolicy: Always
           ports:
             - containerPort: 80
