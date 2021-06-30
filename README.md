@@ -1,6 +1,6 @@
 # Pyrrha dashboard
 
-This repository contains the [Pyrrha](https://github.com/Pyrrha-Platform/Pyrrha) solution next generation in progress dashboard built on the Carbon Design System, React, Node.js, and Flask.
+this repository contains the [Pyrrha](https://github.com/Pyrrha-Platform/Pyrrha) solution next generation in progress dashboard built on the Carbon Design System, React, Node.js, and Flask.
 
 The dashboard shows the real-time and long-term averages of firefighter exposure to carbon monoxide, nitrogen dioxide, temperature, and humidity.
 
@@ -25,7 +25,7 @@ The authentication backend is a Node.js app that uses the IBM App ID service, re
 
 ### Update configuration files
 
-- Create an `.env` file from the `/api-main/env.example` file and include your database connection settings. This file is hidden by `.gitignore`.
+- Create an `.env` file from the `/api-main/.env.example` file and include your database connection settings. This file is hidden by `.gitignore`.
 - Set up your Python `/api-main/venv` environment as shown in the blog post above. Then install the requirements.
 - Create a `vcap-local.json` file from the `/api-auth/vcap-local.json` file and include your App ID settings. This file is hidden by `.gitignore`.
 - Update the WebSockets endpoint in `src/Utils/Constants.js` and review that file for any other changes you want to make.
